@@ -55,6 +55,13 @@
 		box-sizing: border-box;
 	}
 
+	/* My classes */
+
+	.my-p {
+		overflow-wrap: normal;
+		width: 300px;
+	}
+
 /* Grid */
 
 	.row {
