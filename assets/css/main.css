@@ -92,20 +92,24 @@
 	}
 
 	.my-blurb {
+		max-width: 550px;
+		min-width: 350px;
 		text-align: justify;
 	}
 
 	.my-proj-blurb-cont {
+		align-content: center;
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		align-content: center;
 	}
 
 	.my-project-blurb {
-		width: auto;
-		text-align: justify;
+		max-width: 775px;
+		min-width: 350px;
 		padding-left: 50px;
+		text-align: justify;
+		width: auto;
 	}
 
 /* Grid */
