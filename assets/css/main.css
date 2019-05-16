@@ -77,6 +77,7 @@
 	.my-column-container {
 		display: flex;
 		flex-direction: row;
+		flex-wrap: wrap;
 		justify-content: space-around;
 		align-items: center;
 		padding-left: 60px;
@@ -91,20 +92,23 @@
 	}
 
 	.my-blurb {
-		text-align: left;
+		max-width: 550px;
+		min-width: 350px;
+		text-align: justify;
 	}
 
 	.my-proj-blurb-cont {
+		align-content: center;
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		align-content: center;
 	}
 
 	.my-project-blurb {
+		max-width: 725px;
+		min-width: 350px;
+		text-align: justify;
 		width: auto;
-		text-align: left;
-		padding-left: 50px;
 	}
 
 /* Grid */
