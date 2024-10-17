@@ -2474,6 +2474,10 @@
 				border-color: #e6e6e6;
 			}
 
+			.image.profile {
+				border-radius: 100%;
+			}
+
 /* List */
 
 	ol {
