@@ -2428,11 +2428,6 @@
 				width: 100%;
 			}
 
-			.image.phone .inner, .image.phone:before, .image.phone:after {
-				display: block;
-				border: solid 2px rgba(255, 255, 255, 0.25);
-			}
-
 			.image.phone .inner {
 				position: relative;
 			}
@@ -2441,24 +2436,6 @@
 					content: '';
 					position: absolute;
 					left: 50%;
-				}
-
-				.image.phone .inner:before {
-					top: -1.375em;
-					margin-left: -1em;
-					width: 2em;
-					height: 0.25em;
-					border-radius: 0.5em;
-					background: rgba(255, 255, 255, 0.25);
-				}
-
-				.image.phone .inner:after {
-					bottom: -2.75em;
-					margin-left: -1em;
-					width: 2em;
-					height: 2em;
-					border-radius: 100%;
-					border: solid 2px rgba(255, 255, 255, 0.25);
 				}
 
 			.image.phone:before, .image.phone:after {
@@ -2495,6 +2472,10 @@
 
 			.image.phone .inner:after {
 				border-color: #e6e6e6;
+			}
+
+			.image.profile {
+				border-radius: 100%;
 			}
 
 /* List */
