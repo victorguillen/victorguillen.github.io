@@ -57,6 +57,15 @@
 
 	/* My classes */
 
+	.name {
+		color: #FFFFFF;
+		margin-top: 5px;
+	}
+
+	.main {
+		margin: 0;
+	}
+
 	.project-name {
 		margin-bottom: 5px;
 	}
@@ -1240,6 +1249,10 @@
 	}
 
 	@media screen and (max-width: 480px) {
+
+		.responsive {
+			flex-direction: column;
+		}
 
 		.row > * {
 			padding: 0 0 0 1.5em;
