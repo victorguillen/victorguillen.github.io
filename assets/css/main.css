@@ -59,11 +59,11 @@
 
 	.name {
 		color: #FFFFFF;
-		margin-top: 5px;
+		margin-top: 15px;
 	}
 
-	.main {
-		margin: 0;
+	.resume {
+		font-size: 1.5rem;
 	}
 
 	.project-name {
@@ -94,6 +94,16 @@
 	}
 
 	.my-column-container {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+
+	.my-column-container-skills {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -1250,8 +1260,18 @@
 
 	@media screen and (max-width: 480px) {
 
-		.responsive {
+		.my-column-container-skills {
 			flex-direction: column;
+			align-items: flex-start;
+		}
+
+		.my-column-container {
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.my-columns {
+			margin-bottom: 15px;
 		}
 
 		.row > * {
@@ -2363,6 +2383,7 @@
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		font-size: 2rem;
 	}
 
 		.icon:before {
